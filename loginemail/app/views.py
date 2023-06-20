@@ -18,7 +18,7 @@ def login(request):
         "Login - portal", 
         template, 
         settings.EMAIL_HOST_USER,
-        ['wendelmarques99@outlook.com']
+        ['toemailuser']
         )
         email.send()
         return render(request, "habilitado.html", data)
